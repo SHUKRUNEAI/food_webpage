@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding:0px;
+    background-color:white;
+    text-decoration: none;
+    
+}
+.navbar{
+    background-color: white;
+    /* padding-right: 0px;
+    padding-left: 16px; */
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.navdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+.button1{
+    text-decoration: none;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: none;
+    float: left;
+    letter-spacing: 4px;
+    padding-right: 600px;
+    min-width:fit-content;
+}
+.button1:hover{
+    background-color:  gray;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.button2{
+    text-decoration: none;
+    padding: 14px 30px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: none;
+    float: left;
+    letter-spacing: 4px;
+}
+
+.button2:hover{
+    background-color: gray;
+    transition-duration: 0.5s;
+    color: white;
+}
+.button3{
+    text-decoration: none;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: none;
+    float: left;
+    letter-spacing: 4px;
+}
+
+.button3:hover{
+    background-color:  gray;
+    transition-duration: 0.5s;
+    color: white;
+}
+.button4{
+    text-decoration: none;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: none;
+    float: left;
+    letter-spacing: 4px;
+}
+
+.button4:hover{
+    background-color:  gray;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.para1{
+    padding: 100px;
+    height: 700px;
+    width: 400px;
+    float: right;
+}
+.content1{
+    display: block;
+}
+.navdiv ul{
+    background-color: white;
+    list-style-type: none;
+}
+.image1{
+    max-width: 100%;
+    height:auto;
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    }
+.image2{
+    margin: 50px;    
+    width: 100%;
+    height: 100%;
+} 
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+.content2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+    text-wrap: wrap;
+    margin-right: 50px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.image3{
+    margin: 50px;
+}
+.content3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:50px;
+}
+.words{
+    font-size: 27px;
+    padding: 30px 0px 20px;
+}
+.content4{
+    margin: 100px;
+    margin-bottom: 0px;
+}
+.input{
+    width: 1000px;
+    background: #fff;
+    padding: 120px;
+    margin-bottom: 200px;
+}
+.input .name{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    
+}
+.input .name input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+}
